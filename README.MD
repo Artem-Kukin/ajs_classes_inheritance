@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/8steppem37pa75qd?svg=true)](https://ci.appveyor.com/project/Artem-Kukin/ajs-classes-inheritance)
