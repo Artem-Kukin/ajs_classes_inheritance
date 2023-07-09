@@ -1,7 +1,7 @@
 import Swordsman from '../characters/swordsman';
 
 test('class Swordsman should constructs object', () => {
-  const input = ["test", "swordsman"];
+  const input = ['test', 'swordsman'];
   const expected = {
     name: 'test',
     type: 'swordsman',
