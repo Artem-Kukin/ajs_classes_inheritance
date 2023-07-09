@@ -3,9 +3,7 @@ export default class Character {
     if (typeof name === 'string' && name.length > 2 && name.length < 11) {
       this.name = name;
     } else {
-      throw new Error(
-        'Не корректное имя пользователя. Имя должно быть не менее 2-х и не более 10-ти символов.'
-      );
+      throw new Error('Не корректное имя пользователя. Имя должно быть не менее 2-х и не более 10-ти символов');
     }
     const types = [
       'bowerman',
