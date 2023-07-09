@@ -16,7 +16,7 @@ export default class Character {
     if (types.includes(type)) {
       this.type = type;
     } else {
-      throw new Error(`Персонаж ${type} не существет`);
+      throw new Error(`Персонаж ${type} не существует`);
     }
     this.health = 100;
     this.level = 1;
