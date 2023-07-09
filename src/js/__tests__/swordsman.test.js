@@ -1,10 +1,10 @@
-import Swordsman from "../characters/swordsman";
+import Swordsman from '../characters/swordsman';
 
-test("class Swordsman should constructs object", () => {
+test('class Swordsman should constructs object', () => {
   const input = ["test", "swordsman"];
   const expected = {
-    name: "test",
-    type: "swordsman",
+    name: 'test',
+    type: 'swordsman',
     health: 100,
     level: 1,
     attack: 40,

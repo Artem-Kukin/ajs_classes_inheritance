@@ -1,10 +1,10 @@
-import Zombie from "../characters/zombie";
+import Zombie from '../characters/zombie';
 
-test("class Zombie should constructs object", () => {
-  const input = ["test", "zombie"];
+test('class Zombie should constructs object', () => {
+  const input = ['test', 'zombie'];
   const expected = {
-    name: "test",
-    type: "zombie",
+    name: 'test',
+    type: 'zombie',
     health: 100,
     level: 1,
     attack: 40,

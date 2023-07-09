@@ -1,10 +1,10 @@
-import Magician from "../characters/magician";
+import Magician from '../characters/magician';
 
-test("class Magician should constructs object", () => {
-  const input = ["test", "magician"];
+test('class Magician should constructs object', () => {
+  const input = ['test', 'magician'];
   const expected = {
-    name: "test",
-    type: "magician",
+    name: 'test',
+    type: 'magician',
     health: 100,
     level: 1,
     attack: 10,

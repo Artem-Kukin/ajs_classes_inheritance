@@ -1,10 +1,10 @@
-import Daemon from "../characters/daemon";
+import Daemon from '../characters/daemon';
 
-test("class Daemon should constructs object", () => {
-  const input = ["test", "daemon"];
+test('class Daemon should constructs object', () => {
+  const input = ['test', 'daemon'];
   const expected = {
-    name: "test",
-    type: "daemon",
+    name: 'test',
+    type: 'daemon',
     health: 100,
     level: 1,
     attack: 10,

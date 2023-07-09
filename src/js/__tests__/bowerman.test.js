@@ -1,10 +1,10 @@
-import Bowerman from "../characters/bowerman";
+import Bowerman from '../characters/bowerman';
 
-test("class Bowerman should constructs object", () => {
-  const input = ["test", "bowerman"];
+test('class Bowerman should constructs object', () => {
+  const input = ['test', 'bowerman'];
   const expected = {
-    name: "test",
-    type: "bowerman",
+    name: 'test',
+    type: 'bowerman',
     health: 100,
     level: 1,
     attack: 25,

@@ -1,10 +1,10 @@
-import Undead from "../characters/undead";
+import Undead from '../characters/undead';
 
-test("class Undead should constructs object", () => {
-  const input = ["test", "undead"];
+test('class Undead should constructs object', () => {
+  const input = ['test', 'undead'];
   const expected = {
-    name: "test",
-    type: "undead",
+    name: 'test',
+    type: 'undead',
     health: 100,
     level: 1,
     attack: 25,
